@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,400&family=Source+Sans+Pro&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.logo{
+    color:brown;
+}
+.login{
+    -webkit-border-radius: 46;
+        -moz-border-radius: 46;
+        border-radius: 46px;
+        font-family: Arial;
+        color: #ffffff;
+        font-size: 20px;
+        background: #030303;
+        padding: 8px 20px 10px 20px;
+        border: solid #ffffff 1px;
+        text-decoration: none;
+}
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+.main-button{
+    -webkit-border-radius: 51;
+        -moz-border-radius: 51;
+        border-radius: 51px;
+        font-family: Arial;
+        color: #ffffff;
+        font-size: 20px;
+        background: #d93434;
+        padding: 10px 20px 10px 20px;
+        border: solid #ffffff 1px;
+        text-decoration: none;
+}
+.main-section{
+    margin-top: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.sub-Mainline,.main-button{
+    margin-top: 1rem;
+}
+.frontPage{
+    background-image: url("./assets/main-imgage.png");
+    background-size: cover;
+    height: 100vh;
+    width:100vw;
+    color:white;
+}
+.main-nav{
+    display: flex;
+    width: 60%;
+
+    justify-content: space-between;
+}
+.main-nav h2{
+    font-weight: 200;
+    font-size: 1rem;
+}
+.sub-nav{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    margin:.5rem;
+}
+.sub-nav button,.sub-nav a{
+    margin-left:1.5rem;
+}
+.light-text{
+    font-family: Roboto;
+    font-size: 45px;
+    font-weight: 100;
+    letter-spacing: 1.7px;
+    text-align: center;
+}
+.heavy-text{
+    font-family: Roboto;
+    font-size: 45px;
+    font-weight: 400;
+    letter-spacing: 1.7px;
+    text-align: center;
+}
+.secondPage{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+.mainPara{
+    width: 90%;
+    text-align: center;
+    font-weight: 00;
+    font-size: .9rem;
+}  
+.secondPage h2,.secondPage p ,.secondPage img{
+    margin-top: 3rem;
+} 
+.secondPage h2{
+    border-bottom: 3px solid rgb(117, 7, 7);
+    padding-bottom: 1rem;
+}
+.thirdPageSection{
+    display: flex;
+
+}
+.thirdPageSection div{
+    width:50%;
+    display:flex;
+    flex-direction: column;
+    padding: 0 8rem;
+    
+}
+.thirdPageSection div p{
+    padding-top: 2rem;
+    font-weight: lighter;
+}
+.thirdPageImage{
+    margin-top: 7rem;
+    background-size: cover;
+    height: 60vh;
+    width: 50vw;
+
+}
+.thirdPage{
+    background-color: rgba(181, 186, 192, 0.374);
+     margin-top: 3rem;
+    display: flex;
+        align-items: center;
+        flex-direction: column;
+}
+.thirdPage h2{
+   
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 3px solid rgb(117, 7, 7);
+}
+.fourthPage{
+    display: flex;
+}
+.fourthPage div{
+    width: 50%;
+        display: flex;
+        flex-direction: column;
+        padding: 0 8rem;
+}
+.fourthPage img{
+    margin-top: 7rem;
+        background-size: cover;
+        height: 60vh;
+        width: 50vw;
+}
+.fourthPageHeading{
+    width:100%;
+    padding-bottom: 3rem;
+}
